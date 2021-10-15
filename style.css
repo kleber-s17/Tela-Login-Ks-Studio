@@ -24,6 +24,7 @@ body {
     rgba(255, 255, 255, 1) 100%
   );
 }
+
 section {
   width: 100%;
   display: flex;
@@ -31,6 +32,7 @@ section {
   align-items: center;
   flex-direction: column;
 }
+
 form {
   width: 30vw;
   display: flex;
@@ -49,12 +51,14 @@ input {
   background-color: rgba(0, 0, 0, 0.5);
   
 }
+
 #user,
 #pass,
 #email {
   color: azure;
   border: none;
 }
+
 input::placeholder {
   color: rgba(240, 248, 255, 0.338);
 }
@@ -73,10 +77,9 @@ img {
   border-color: background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(31,29,63,1) 0%, rgba(73,73,189,1) 32%, rgba(255,255,255,1) 100%);
   border-width: 2px;
 }
+
 #send:hover {
   background-color: #4c4c6a;
   color: aliceblue;
   border-color: red;
 }
-
-
