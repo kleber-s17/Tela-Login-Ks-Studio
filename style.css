@@ -54,7 +54,7 @@ input {
 
 #user,
 #pass,
-#email {
+#email, #cPass {
   color: azure;
   border: none;
 }
