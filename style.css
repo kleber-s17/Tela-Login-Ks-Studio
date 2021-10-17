@@ -123,17 +123,3 @@ img {
     
   }
 }
-
-/*
-@media screen and (max-width: 760px) {
-  .logo {
-    width: 90vw;
-    height: 60vh;
-    margin-bottom: 30px;
-  }
-  form {
-    width: 95vw;
-    margin-bottom: -30px;
-  }
-}
-*/
