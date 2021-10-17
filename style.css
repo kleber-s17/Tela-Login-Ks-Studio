@@ -12,6 +12,7 @@ body {
   height: 100%;
 }
 
+
 body {
   background: rgb(0, 0, 0);
   background: linear-gradient(
@@ -83,3 +84,56 @@ img {
   color: aliceblue;
   border-color: red;
 }
+
+.logo {
+  width: 45vw;
+  height: 80vh;
+}
+
+@media screen and (max-width: 992px) {
+   .logo {
+    width: 70vw;
+    height: 75vh;
+    margin-bottom: 10px;
+  }
+  form {
+    width: 60vw;
+    
+  }
+} 
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 95vw;
+    height: 70vh;
+    margin-bottom: 10px;
+  }
+  form {
+    width: 90vw;
+    
+  }
+}
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 95vw;
+    height: 60vh;
+    margin-bottom: 10px;
+  }
+  form {
+    width: 95vw;
+    
+  }
+}
+
+/*
+@media screen and (max-width: 760px) {
+  .logo {
+    width: 90vw;
+    height: 60vh;
+    margin-bottom: 30px;
+  }
+  form {
+    width: 95vw;
+    margin-bottom: -30px;
+  }
+}
+*/
